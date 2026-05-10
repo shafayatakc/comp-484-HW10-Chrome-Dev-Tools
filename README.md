@@ -1,1 +1,2 @@
-# comp-484-HW10-Chrome-Dev-Tools
+# comp-484-project-2
+https://shafayatakc.github.io/comp-484-project-2/

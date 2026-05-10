@@ -1,0 +1,148 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 25px;
+    background-image: url('images/doghouse-background.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh
+  }
+  
+  main {
+    display:flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header {
+    border-bottom: 1px solid black;
+  }
+  
+  h1 {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  p {
+    max-width: 600px;
+  }
+  
+  .game-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+  li {
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    padding-top: 25px;
+    border-top: 1px solid black;
+  }
+  
+  footer a {
+    float:left;
+    margin:5px;
+  }
+  @keyframes bounce {
+    0%   { transform: translateY(0); }
+    25%  { transform: translateY(-20px); }
+    50%  { transform: translateY(0); }
+    75%  { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+/* Shake animation for exercise */
+@keyframes shake {
+    0%   { transform: translateX(0); }
+    25%  { transform: translateX(-10px); }
+    50%  { transform: translateX(10px); }
+    75%  { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+}
+
+/* Spin animation for bathe */
+@keyframes spin {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.happiness-bar-container {
+    width: 200px;
+    background-color: #ddd;
+    margin-top: 10px;
+    height: 15px;
+    overflow: hidden;
+}
+
+.happiness-bar {
+    height: 15px;
+    background-color: #4CAF50;
+}
+.bounce {
+    animation: bounce 0.5s ease;
+}
+
+.shake {
+    animation: shake 0.5s ease;
+}
+
+.spin {
+    animation: spin 0.5s ease;
+}
+  .pet-image {
+    height:250px;
+  }
+  
+  .dashboard div {
+    display:block;
+  }
+  
+  .pet-image-container {
+    float:left;
+    padding:10px;
+  }
+
+  .pet-message {
+    font-size: 18px;
+    color: #e63946;
+    font-weight: bold;
+    margin-top: 15px;
+}
+  
+  .dashboard {
+    float:left;
+    padding:20px;
+  }
+  
+  .button-container {
+    margin-top:20px;
+  }
+  
+  .button-container button {
+    width: 100px;
+      margin-right: 10px;
+      text-align: center;
+      display: inline-block;
+      float: left;
+    font-size:15px;
+    background-color: #1e2835;
+    border-color: #404853;
+    cursor:pointer;
+    background-image: linear-gradient(to bottom,rgba(246,246,246,.1)0%,rgba(30,40,53,0)66%);
+    color: #fafafa;
+  }
